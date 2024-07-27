@@ -1,9 +1,16 @@
-import React from 'react'
+import Documents from "@/components/Documents"
 
-function page() {
+export const dtnamic='force-dynamic'
+function DashBoard() {
   return (
-    <div>DashBoard</div>
+    <div className='h-full max-w-7xl mx-auto'>
+      <h1 className='text-3xl p-5 font-extralight'>
+       My Documents 
+      </h1>
+      <Documents/>
+
+    </div>
   )
 }
 
-export default page
+export default DashBoard
