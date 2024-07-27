@@ -1,6 +1,6 @@
 import Documents from "@/components/Documents"
 
-export const dynamic='force-dynamic'
+export const dynamic="force-dynamic"
 function DashBoard() {
   return (
     <div className='h-full max-w-7xl mx-auto'>
