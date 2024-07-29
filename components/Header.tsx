@@ -20,7 +20,7 @@ function Header() {
             <Link href="/dashboard/upgrade">My Documents</Link>
             </Button>
             <Button asChild className='hidden md:flex' variant="outline">
-            <Link href="/dashboard/upgrade">
+            <Link href="/dashboard/upload">
             <FilePlus2 className='text-indigo-600'/>
             </Link>
             </Button>
